@@ -9,6 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_mail import Mail
 from flask_bootstrap import Bootstrap
+from flask_moment import Moment
 
 from config import Config
 
@@ -22,6 +23,7 @@ login.login_view = 'login'
 login.login_message = 'Пожалуйста, войдите, чтобы открыть эту страницу.'
 mail = Mail(app)
 bootstrap = Bootstrap(app)
+moment = Moment(app)
 
 
 if not app.debug:
