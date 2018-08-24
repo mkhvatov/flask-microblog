@@ -1,4 +1,5 @@
 /__pycache__/*
+app/__pycache__/*
 /env/*
 /venv/*
 *.db
@@ -6,3 +7,7 @@
 .idea/*
 /migrations/*
 *.swp
+
+# Translations
+*.mo
+*.pot
