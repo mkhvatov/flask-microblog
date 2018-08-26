@@ -12,7 +12,7 @@ To see and write messages you need to be registered and logged in.
 
 [You can see the example on Heroku](https://mkhvatov-microblog.herokuapp.com/)
 
-## Install virtual envaroment and requirements
+## Install virtual environment and requirements
 
 ``` #!bash
 
